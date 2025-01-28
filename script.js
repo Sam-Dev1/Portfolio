@@ -12,6 +12,9 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
+  // Admin credentials
+  const adminEmail = "admin@gmail.coom";
+  const adminPassword = "admin";
   // Simple validation (for demonstration purposes)
   if (username === "admin" && password === "password") {
       alert('Login successful!');
